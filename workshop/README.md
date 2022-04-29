@@ -1,4 +1,27 @@
-# the 3 new python packages
+- [cztile - Python package to simplify the process of tiling arrays](#cztile---python-package-to-simplify-the-process-of-tiling-arrays)
+  - [Samples](#samples)
+  - [System setup](#system-setup)
+  - [Supported Tiling Strategies](#supported-tiling-strategies)
+    - [AlmostEqualBorderFixedTotalAreaStrategy2D](#almostequalborderfixedtotalareastrategy2d)
+      - [Inputs](#inputs)
+      - [Calculation of tile positions and borders](#calculation-of-tile-positions-and-borders)
+- [pylibCZIrw - Python wrapper for libCZIrw](#pylibczirw---python-wrapper-for-libczirw)
+  - [Important Remarks](#important-remarks)
+  - [Example Usage](#example-usage)
+  - [Installation](#installation)
+- [CZMODEL package](#czmodel-package)
+  - [Samples](#samples-1)
+  - [System setup](#system-setup-1)
+  - [Model conversion](#model-conversion)
+    - [Keras models in memory](#keras-models-in-memory)
+      - [1. Create a model meta data class](#1-create-a-model-meta-data-class)
+      - [2 .Creating a model specification](#2-creating-a-model-specification)
+      - [3. Converting the model](#3-converting-the-model)
+    - [Exported TensorFlow models](#exported-tensorflow-models)
+    - [Adding pre- and post-processing layers](#adding-pre--and-post-processing-layers)
+    - [Unpacking CZANN/CZSEG files](#unpacking-czannczseg-files)
+  - [CZANN Model Specification](#czann-model-specification)
+  - [Disclaimer](#disclaimer)
 
 # cztile - Python package to simplify the process of tiling arrays
 
