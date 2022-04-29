@@ -1,5 +1,5 @@
 - [cztile - Python package to simplify the process of tiling arrays](#cztile---python-package-to-simplify-the-process-of-tiling-arrays)
-  - [Samples for pylibCZIrw](#samples-for-pylibczirw)
+  - [Example Usage for cztile](#example-usage-for-cztile)
   - [System setup](#system-setup)
   - [Supported Tiling Strategies](#supported-tiling-strategies)
     - [AlmostEqualBorderFixedTotalAreaStrategy2D](#almostequalborderfixedtotalareastrategy2d)
@@ -7,10 +7,10 @@
       - [Calculation of tile positions and borders](#calculation-of-tile-positions-and-borders)
 - [pylibCZIrw - Python wrapper for libCZIrw](#pylibczirw---python-wrapper-for-libczirw)
   - [Important Remarks](#important-remarks)
-  - [Example Usage](#example-usage)
+  - [Example Usage pylibCZIrw](#example-usage-pylibczirw)
   - [Installation](#installation)
 - [CZMODEL package](#czmodel-package)
-  - [Samples for czmodel](#samples-for-czmodel)
+  - [Example Usage for czmodel](#example-usage-for-czmodel)
   - [System setup for czmodel](#system-setup-for-czmodel)
   - [Model conversion](#model-conversion)
     - [Keras models in memory](#keras-models-in-memory)
@@ -27,7 +27,7 @@
 
 This project provides simple-to-use tiling functionality for arrays. It is not linked directly to the CZI file format, but can be of use to process such images in an efficient and **tile-wise** manner, which is especially important when dealing with larger images.
 
-## Samples for pylibCZIrw
+## Example Usage for cztile
 
 The basic usage can be inferred from this sample notebook:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zeiss-microscopy/OAD/blob/master/jupyter_notebooks/cztile/cztile_0_0_2.ipynb)
@@ -96,7 +96,7 @@ Tile ![equation](https://latex.codecogs.com/svg.image?i) for ![equation](https:/
 - Left-most border pixel: ![equation](https://latex.codecogs.com/svg.image?%5Cl_i=L_i-%5Clambda_i)
 - Right-most-border pixel: ![equation](https://latex.codecogs.com/svg.image?r_i=R_i&plus;%5Crho_i)
 
-------
+----
 
 # pylibCZIrw - Python wrapper for libCZIrw
 
@@ -108,7 +108,7 @@ This project provides a simple and easy-to-use Python wrapper for libCZIrw - a c
 - If pylibCZIrw is extended in the future to support subblock-based access (e.g. accessing acquisition tiles), this API must not be altered.
 - The core concept of pylibCZIrw is focussing on reading and writing 2D image planes by specifying the dimension indices and its location in order to only read or write **what is really needed**.
 
-## Example Usage
+## Example Usage pylibCZIrw
 
 The basic usage can be inferred from this sample notebook:
 
@@ -142,7 +142,9 @@ Please check the following compatibility matrix for ZEN Blue/Core and the respec
 
 If you encounter a version mismatch when importing a model into ZEN, please check for the correct version of this package.
 
-## Samples for czmodel
+---
+
+## Example Usage for czmodel
 
 For segmentation:&nbsp;
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/i2k_2022_zeiss/blob/master/workshop/colab_notebooks/SingleClassSemanticSegmentation_3_0_0.ipynb)
