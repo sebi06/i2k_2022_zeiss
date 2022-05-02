@@ -472,6 +472,4 @@ The libary and the notebook are free to use for everybody. Carl Zeiss Microscopy
 
 **By using any of those examples you agree to this disclaimer.**
 
-Version: 2022.29.06
-
 Copyright (c) 2022 Carl Zeiss AG, Germany. All Rights Reserved.
