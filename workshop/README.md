@@ -22,6 +22,7 @@
     - [Adding pre- and post-processing layers](#adding-pre--and-post-processing-layers)
     - [Unpacking CZANN/CZSEG files](#unpacking-czannczseg-files)
   - [CZANN Model Specification](#czann-model-specification)
+- [napari-czann-segment](#napari-czann-segment)
   - [Disclaimer](#disclaimer)
 
 # General Remarks
@@ -480,9 +481,20 @@ For regression:
 }
 ```
 
+# napari-czann-segment
+
+Experimental Napari plugin to use *czann model files to segment multi-dimensional images.
+
+The Github repository can be found [here](https://github.com/sebi06/napari_czann_segment).
+
+* models can be trained fully automated on [APEER]
+* models can be also trained in custom pipelines in a jupyter notebook etc.
+
+---
+
 ## Disclaimer
 
-The library and the notebook are free to use for everybody. Carl Zeiss Microscopy GmbH undertakes no warranty concerning the use of those tools. Use them at your own risk.
+The library, the notebook and scripts are free to use for everybody. Carl Zeiss Microscopy GmbH undertakes no warranty concerning the use of those tools. Use them at your own risk.
 
 **By using any of those examples you agree to this disclaimer.**
 
